@@ -1,0 +1,180 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* End of Reset */
+/* Begin Additional CSS Notes */
+
+.container {
+     background: url(GovernmentPillars.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    color: #0054EF;
+    width: 100%;
+    height: 70px;
+    background-color: #2B323E;
+    font-family: "PT Mono";
+}
+
+.brand {
+    font-size: 40px;
+    font-weight: 900;
+    float: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-variant: small-caps;
+}
+
+.top-nav > li {
+    display: inline-block;
+    float: right;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-size: 25px;
+    font-variant: small-caps;
+}
+
+.main-section-left {
+    float: left;
+    width: 30%;
+    height: 500px;
+    background-color: #0054EF;
+    font-weight: 900;
+    font-family: "Oswald";
+    font-variant: small-caps;
+}
+
+.titles-of-my-work {
+    font-size: 35px;
+    padding-top: 135px;
+    text-align: center;
+}
+
+.ordered-list {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.main-section-right {
+    background-color: #2D4571;
+    float: right;
+    width: 70%;
+    height: 500px;
+    font-weight: 900;
+    font-family: "Oswald";
+}
+
+.main-section-right > h2 {
+    text-align: center;
+    padding-left: 43px;
+}
+
+.main-section-right > p {
+    width: 600px;
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.footer-buttons {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: #2B323E;
+    margin-top: 500px;
+    color: #0054EF;
+    font-weight: 900;
+    font-family: "PT Mono";
+}
+
+.big-buttons > button {
+   border-top: 1px solid #96d1f8;
+   background: #1044A4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#6594d6));
+   background: -webkit-linear-gradient(top, #3e779d, #1044A4);
+   background: -moz-linear-gradient(top, #3e779d, #1044A4);
+   background: -ms-linear-gradient(top, #3e779d, #1044A4);
+   background: -o-linear-gradient(top, #3e779d, #1044A4);
+/*   padding: 30px 40px; */
+   width: 250px;
+   height: 125px;
+   -webkit-border-radius: 19px;
+   -moz-border-radius: 19px;
+   border-radius: 19px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 24px;
+   font-family: sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-left: 70px;
+   margin-right: 70px;
+   margin-top: 18px;
+   font-variant: small-caps;
+}
+
+.ultimate-footer {
+    width: 100%;
+    height: 40px;
+    background-color: #1044A4;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    font-family: "PT Mono";
+}
